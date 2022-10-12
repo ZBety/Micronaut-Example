@@ -1,0 +1,10 @@
+micronaut:
+  application:
+    name: exampleMongodb
+mongodb:
+  uri: mongodb://admin:Tjx9o3YE6HPVxvwCF7S4ZETEVvenRzU@mongo.internal.moyingrobotics.com:27017/nucleic_acid_sampling?authSource=admin
+
+netty:
+  default:
+    allocator:
+      max-order: 3
